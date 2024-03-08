@@ -19,7 +19,7 @@ brew install --cask visual-studio-code
 
 # Install Docker
 echo "Installing Docker..."
-brew install docker
+brew install --cask docker
 
 # Install iTerm2
 echo "Installing iTerm2..."
