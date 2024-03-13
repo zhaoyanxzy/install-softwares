@@ -21,6 +21,10 @@ brew install --cask visual-studio-code
 echo "Installing Docker..."
 brew install --cask docker
 
+# Install MySql
+echo "Installing MySql..."
+brew install mysql
+
 # Install iTerm2
 echo "Installing iTerm2..."
 brew install --cask iterm2
