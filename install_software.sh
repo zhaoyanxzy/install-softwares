@@ -38,11 +38,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Install zsh-autosuggestions
 echo "Installing zsh-autosuggestions..."
 brew install zsh-autosuggestions
-echo source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+echo source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh >> ~/.zshrc
 
 # Install zsh-syntax-highlighting
 echo "Installing zsh-syntax-highlighting..."
 brew install zsh-syntax-highlighting
-echo "source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
+echo "source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 
 echo "Installation complete."
